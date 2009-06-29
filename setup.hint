@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libglib2.0_0 libX11_6 lxpanel lxsession-lite obconf openbox pcmanfm
+requires: libglib2.0_0 libX11_6 lxpanel lxsession-lite obconf openbox pcmanfm
 sdesc: "LXDE startup scripts"
 ldesc: "lxde-common package provides a set of default configuration for LXDE.
 
