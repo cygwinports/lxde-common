@@ -1,9 +1,4 @@
 category: X11
-requires: libglib2.0_0 libX11_6 lxpanel lxsession-lite obconf openbox pcmanfm
+requires: lxde-settings-daemon lxpanel lxsession obconf openbox pcmanfm
 sdesc: "LXDE startup scripts"
-ldesc: "lxde-common package provides a set of default configuration for LXDE.
-
-lxde-settings is the XSettings daemon of LXDE. It read config file
-~/.config/lxde/config or /usr/share/lxde/config if user-specific config
-file is not available, and presents the config values to other programs
-via XSETTINGS protocol defined by freedesktop.org."
+ldesc: "lxde-common package provides a set of default configuration for LXDE."
