@@ -1,0 +1,3 @@
+DESCRIPTION="LXDE startup scripts"
+HOMEPAGE="http://lxde.org/"
+SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"

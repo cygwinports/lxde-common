@@ -3,6 +3,7 @@ lxde-common
 lxde-common package provides a set of default configuration for LXDE.
 
 Runtime requirements:
+  lxde-icon-theme
   lxde-settings-daemon
   lxpanel
   lxsession
@@ -12,13 +13,13 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.7-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-13
+  autoconf2.5-2.65-1
+  automake1.11-1.11.3-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -32,49 +33,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack lxde-common-0.4.1-X-src.tar.bz2
+  unpack lxde-common-0.5.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./lxde-common-0.4.1-X.cygport all
+  cygport ./lxde-common-0.5.0-X.cygport all
 
 This will create:
-  /usr/src/lxde-common-0.4.1-X-src.tar.bz2
-  /usr/src/lxde-common-0.4.1-X.tar.bz2
+  /usr/src/lxde-common-0.5.0-X-src.tar.bz2
+  /usr/src/lxde-common-0.5.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/lxde-common.sh
-  /etc/xdg/lxsession/LXDE/autostart
-  /etc/xdg/lxsession/LXDE/config
-  /etc/xdg/lxsession/LXDE/default
-  /usr/bin/lxde-logout
-  /usr/bin/openbox-lxde
-  /usr/bin/startlxde
-  /usr/share/doc/lxde-common/AUTHORS
-  /usr/share/doc/lxde-common/COPYING
-  /usr/share/doc/lxde-common/README
-  /usr/share/icons/nuoveXT2/*/*/*
-  /usr/share/lxde/images/logout-banner.png
-  /usr/share/lxde/images/lxde-icon.png
-  /usr/share/lxde/openbox/menu.xml
-  /usr/share/lxde/openbox/rc.xml
-  /usr/share/lxde/pcmanfm/main.lxde
-  /usr/share/lxde/wallpapers/lxde_blue.jpg
-  /usr/share/lxde/wallpapers/lxde_green.jpg
-  /usr/share/lxde/wallpapers/lxde_red.jpg
-  /usr/share/lxpanel/profile/LXDE/config
-  /usr/share/lxpanel/profile/LXDE/panels/panel
-  /usr/share/man/man1/lxde-logout.1.gz
-  /usr/share/man/man1/openbox-lxde.1.gz
-  /usr/share/man/man1/startlxde.1.gz
-  /usr/share/xsessions/LXDE.desktop
-
-------------------
-
 Port Notes:
+
+----- version 0.5.0-1 -----
+Version bump.
 
 ----- version 0.4.1-1 -----
 Initial release for Cygwin.
