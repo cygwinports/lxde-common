@@ -1,0 +1,13 @@
+Adwaita is Clearlooks-based and compatible with GTK+3
+
+--- origsrc/lxde-common-0.5.5/desktop.conf	2011-07-29 09:04:03.000000000 -0500
++++ src/lxde-common-0.5.5/desktop.conf	2012-08-17 16:12:47.228269300 -0500
+@@ -2,7 +2,7 @@
+ window_manager=openbox-lxde
+ 
+ [GTK]
+-sNet/ThemeName=Clearlooks
++sNet/ThemeName=Adwaita
+ sNet/IconThemeName=nuoveXT2
+ sGtk/FontName=Sans 10
+ iGtk/ToolbarStyle=3

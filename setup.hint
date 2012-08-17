@@ -1,4 +1,0 @@
-category: LXDE
-requires: lxde-icon-theme lxde-settings-daemon lxmenu-data lxpanel lxsession obconf openbox pcmanfm
-sdesc: "LXDE startup scripts"
-ldesc: "lxde-common package provides a set of default configuration for LXDE."
