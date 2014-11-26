@@ -6,12 +6,13 @@ SUMMARY="LXDE startup scripts"
 DESCRIPTION="lxde-common package provides a set of default configuration for LXDE."
 HOMEPAGE="http://lxde.org/"
 SRC_URI="mirror://sourceforge/lxde/${P}.tar.xz"
-
-PATCH_URI="0.5.5-gtk3.patch
-           0.5.5-lxpanel-config.patch
+PATCH_URI="
+	0.5.5-gtk3.patch
+	0.5.5-lxpanel-config.patch
+	0.99.0-lxsession-autostart.patch
+	0.99.0-openbox-menu.patch
 "
-#           0.5.5-openbox-config.patch
 
 ARCH=noarch
 
-REQUIRES="dbus-x11 gnome-themes-standard lxde-icon-theme lxmenu-data lxpanel lxsession openbox pcmanfm run xinit"
+REQUIRES="dbus-x11 gnome-themes-standard lxde-icon-theme lxmenu-data lxpanel lxsession openbox pcmanfm run xdg-user-dirs xinit"

@@ -1,0 +1,6 @@
+--- origsrc/lxde-common-0.99.0/autostart	2014-09-01 09:17:11.000000000 -0500
++++ src/lxde-common-0.99.0/autostart	2014-11-26 14:19:04.775603500 -0600
+@@ -1,3 +1,2 @@
+ @lxpanel --profile LXDE
+ @pcmanfm --desktop --profile LXDE
+-@xscreensaver -no-splash

@@ -1,0 +1,22 @@
+--- origsrc/lxde-common-0.99.0/openbox/menu.xml	2014-09-01 09:17:11.000000000 -0500
++++ src/lxde-common-0.99.0/openbox/menu.xml	2014-11-26 14:23:41.241416500 -0600
+@@ -8,11 +8,15 @@
+     <startupnotify><enabled>yes</enabled><icon>pcmanfm</icon></startupnotify>
+     <command>pcmanfm</command></action>
+   </item>
+-  <item label="Xterm">
+-    <action name="Execute"><command>xterm</command></action>
++  <item label="LXTerminal">
++    <action name="Execute">
++    <startupnotify><enabled>yes</enabled><icon>lxterminal</icon></startupnotify>
++    <command>lxterminal</command></action>
+   </item>
+-  <item label="Firefox">
+-    <action name="Execute"><command>firefox</command></action>
++  <item label="Midori">
++    <action name="Execute">
++    <startupnotify><enabled>yes</enabled><icon>midori</icon></startupnotify>
++    <command>midori</command></action>
+   </item>
+ </menu>
+ 
