@@ -1,0 +1,9 @@
+--- origsrc/lxde-common-0.99.1/LXDE.desktop.in.in	2014-10-23 10:12:13.000000000 -0500
++++ src/lxde-common-0.99.1/LXDE.desktop.in.in	2016-11-08 18:40:49.592926200 -0600
+@@ -3,5 +3,5 @@
+ Name=LXDE
+ _Comment=LXDE - Lightweight X11 desktop environment
+ Exec=@prefix@/bin/startlxde
+-# Icon=
++Icon=lxde
+ Type=Application
